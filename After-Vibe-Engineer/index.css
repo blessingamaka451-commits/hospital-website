@@ -1098,7 +1098,7 @@ img {
    RESPONSIVE MEDIA QUERIES (GLOBAL)
    ========================================================================== */
 @media (max-width: 1024px) {
-    .menu-toggle {
+   .menu-toggle {
         display: block;
     }
 
