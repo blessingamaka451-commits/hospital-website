@@ -1,0 +1,349 @@
+1. Prompt 1: Design System, Core Variables, Header & Footer
+
+Act as an expert frontend developer and UI/UX designer. Create a highly professional, modern, and fully responsive Header and Footer layout using semantic HTML5 and Vanilla CSS for a Nigerian hospital website.
+
+Project Details:
+- Hospital Name: Esther Heritage Specialist Clinic Ltd
+- Colors to use via CSS :root variables:
+  * --color-primary-light: #a0cbf8;
+    --color-primary-dark: #537f8e;
+    --color-accent: #0056b3;
+  * Backgrounds/Neutrals: White, Sky Blue, and Deep Blue (for footer)
+- Typography: Clear, modern sans-serif fonts suitable for healthcare.
+
+Prompt 2: Header Requirements:
+- Top Left: Font Awesome Hospital icon logo + Brand name ("Esther Heritage Specialist Clinic Ltd").
+- Top Right: A prominent "Book Appointment" button with smooth hover effects.
+- Center Navigation: Centered layout with standard spacing. 
+  * Main Navigation Items: Home, About, Services, Departments, Customer Care & Contact.
+  * Every navigation link must feature an individual, beautifully styled dropdown menu with perfect padding, drop-shadow, and a smooth fade-in slide down animation on hover. Each dropdown link should point to its respective page (index.html, about.html, services.html, etc.).
+
+Footer Requirements:
+- To be maintained identically across all pages.
+- Divided into columns: 
+  * Column 1: Hospital branding, short bio, and links to Social Media handles (Facebook, LinkedIn, Instagram, X via Font Awesome).
+  * Column 2: Quick Links.
+  * Column 3: Contact Info (Address: New Artisan, Enugu State; Phone; Email).
+  * Column 4: A beautifully styled Newsletter Subscription Form (Input box + Subscribe button).
+
+Responsiveness:
+- Ensure the header transforms into a clean, functional hamburger menu on mobile and tablet devices, and the footer columns stack elegantly.
+- Provide clean, commented HTML and Vanilla CSS files. Do not mix them.
+Prompt 2: The Homepage (index.html)
+Use this prompt to build the main entrance of your website.
+
+
+2. Prompt 2: For The Hero Sections (index.html);
+    1. Hero Section:
+    - Background: A full-screen or high-impact hospital building background image (overlayed with a dark tint for text readability).
+    - Layout: Text and elements positioned cleanly to the right side of the screen.
+    - Content: A compelling headline, brief introductory text, and two call-to-action buttons side-by-side: "Book Appointment" and "Watch Video" (with a play icon wrapper).
+    - Bottom Overlay Container: At the base of the hero section, overlay a 4-column feature grid containing clean Font Awesome icons and brief text for:
+        * Expert Doctors
+        * Advanced Care
+        * 24/7 Services
+        * Patient Care
+
+    2. Section Alternation & Styling:
+    - Every section following the Hero must alternate background colors precisely: Sky Blue, White, and #537f8e. Ensure the text color contrast is perfectly readable against each background.
+    - Design an introduction/preview section explaining the clinic's high-tier delivery to prompt users to explore deeper.
+
+    3. Responsiveness:
+    - Make the 4-column overlay stack into 2-columns on tablets and 1-column on mobile.
+    - Provide clean, separate HTML and CSS code blocks.
+
+3. Prompt 3: The About Page (about.html)
+Use this prompt to build the storytelling page honoring the legacy.
+
+Act as an expert frontend UI/UX developer. Create a dedicated About Us page (about.html) for the hospital that carries deep emotional weight and a professional corporate look. It must utilize the same global header, footer, and CSS :root variables.
+
+Page Content Requirements:
+- Title Banner: A clean banner with a nice medical/hospital background image.
+- The Story Section (Legacy & Transition): 
+  * Explicitly tell the story: The clinic's founder is late, but her legacy continues through her 3 children—all qualified doctors—who have taken up the mantle to run the clinic in her demise. 
+  * Because of this heritage, highlight that the hospital is transitioning/honoring her under the name: "Esther Heritage Specialist Hospital" (subsidiary/evolution of IconCare).
+  * Mention that the hospital offers extensive care ranging from modern Diagnostics to deep Specialist Consultations.
+- Media Layout: Place a high-quality, centered image placeholder representing the family legacy/medical leadership right in the middle of this section, surrounded by beautifully styled typography.
+- Alternating Section Layouts: Maintain the alternating background scheme (Sky Blue, White, #537f8e) for additional sub-sections like "Our Mission" and "Our Vision".
+
+
+4. Prompt 4: The Services Page (services.html)
+Use this prompt to create a rich grid showcasing medical and wellness offerings.
+
+Plaintext
+Act as an expert frontend developer. Build a rich, highly visual Services page (services.html) for the hospital. It must utilize the same global design system and alternate colors cleanly.
+
+Key Elements to Implement:
+1. Services Grid/Flexbox Layout:
+   - Use CSS Grid or Flexbox to build a modern grid of service cards. Each card must feature a distinct Font Awesome icon, a bold heading, and a description.
+   - Must highlight specific capabilities: Medical Surgical Care, Fitness & Wellness Programs, advanced ECG Diagnostics, and full in-house Pharmacy Services.
+   - Add hover micro-interactions to the cards (e.g., subtle lift, shadow changes, color shifts).
+
+2. "Meet Our Specialist Doctors" Section:
+   - A beautifully styled card grid featuring profile blocks for individual doctors.
+   - Use descriptions tailored to professional Nigerian doctors (e.g., Consultant Cardiologist, Chief Surgeon, OB/GYN).
+   - Include individual image placeholders for each doctor, professional tags, and a "View Schedule" link.
+
+Ensure the layouts are thoroughly responsive (fluid columns shifting from 3 or 4 down to 1 on mobile screens). Give the HTML and CSS separately.
+Prompt 5: The Departments Page (departments.html)
+Use this prompt to elaborate on clinical divisions.
+
+5. Prompt 5: The Department Section(department.html)
+Act as an expert frontend developer. Create a clean, informative Departments page (departments.html) using HTML5 and Vanilla CSS that matches the global layout variables.
+
+Requirements:
+- Department Showcases: Design a clean layout showing how different clinical departments function together to provide premium care for patients.
+- Departments to feature: Pediatrics, Obstetrics & Gynecology, General Surgery, Internal Medicine, and Emergency Care.
+- For each department card or row, include:
+  * A clear, descriptive icon.
+  * An explanation of *how* that specific department helps care for patients safely and efficiently.
+  * A call-to-action link reading "Learn Department Guidelines" or "Book Specialist".
+- Layout: Alternate layouts (e.g., Image left / Text right, then Text left / Image right) using the specified background colors (Sky Blue, White, #537f8e) to keep the UI/UX engaging.
+
+Provide the complete semantic HTML and responsive CSS.
+
+
+6. Prompt 6: Customer Services & Contact Page (contact.html)
+Use this prompt to build the consolidated communication page.
+
+Act as an expert frontend developer. Build a consolidated Customer Services and Contact Us page (contact.html) to minimize excessive navigation while delivering an excellent user experience.
+
+Requirements:
+1. Customer Care Section:
+   - Frequently Asked Questions (FAQ) accordions styled cleanly with smooth CSS transitions when opening/closing.
+   - Patient Rights and Care Support hotlines prominently displayed with large icons.
+
+2. Contact Section:
+   - Left Side / Column 1: Physical contact details beautifully arranged.
+     * Address: New Artisan, Enugu State, Nigeria.
+     * Click-to-call phone numbers and professional email addresses.
+     * Social Media links embedded using modern medical-colored icon circles.
+   - Right Side / Column 2: A sleek, modern Contact/Inquiry Form.
+     * Fields: Full Name, Email, Phone Number, Selection Dropdown (Inquiry, Feedback, Complaint), and a Message Textarea.
+     * Styled input fields with smooth focus states (using the primary blues), floating labels, and a striking submit button.
+
+Ensure the layout shifts from a side-by-side 2-column view on desktop to a stacked single-column layout on mobile devices. Provide separate HTML and Vanilla CSS.
+Do you want me to write out the full code blocks for the first prompt right now to get your global layout and dropdown navigation styling started?
+
+
+
+
+Dewey Classification System Documentation
+Esther Heritage Specialist Clinic Ltd Website Project
+1.0 Global Design System & Shared Components
+1.1 Design System
+1.1.1 Project Identity
+Esther Heritage Specialist Clinic Ltd
+1.1.2 Brand Color Variables
+--color-primary-light: #a0cbf8
+--color-primary-dark: #537f8e
+--color-accent: #0056b3
+White
+Sky Blue
+Deep Blue (Footer)
+1.1.3 Typography
+Modern sans-serif fonts
+Healthcare-friendly readability standards
+1.2 Header System
+1.2.1 Logo Section
+Font Awesome hospital icon
+Hospital brand name
+1.2.2 Navigation Section
+1.2.2.1 Home Link
+1.2.2.2 About Link
+1.2.2.3 Services Link
+1.2.2.4 Departments Link
+1.2.2.5 Customer Care & Contact Link
+1.2.3 Dropdown Navigation System
+1.2.3.1 Individual dropdown menus
+1.2.3.2 Drop-shadow styling
+1.2.3.3 Smooth fade-in animation
+1.2.3.4 Slide-down hover effect
+1.2.3.5 Internal page linking
+1.2.4 Appointment CTA
+1.2.4.1 Book Appointment button
+1.2.4.2 Hover interactions
+1.3 Footer System
+1.3.1 Branding Column
+1.3.1.1 Hospital bio
+1.3.1.2 Social media integration
+1.3.2 Quick Links Column
+1.3.2.1 Navigation shortcuts
+1.3.3 Contact Information Column
+1.3.3.1 Address details
+1.3.3.2 Phone information
+1.3.3.3 Email information
+1.3.4 Newsletter Column
+1.3.4.1 Email input field
+1.3.4.2 Subscribe button
+1.4 Responsive Behaviour
+1.4.1 Mobile Navigation
+1.4.1.1 Hamburger menu implementation
+1.4.2 Footer Adaptation
+1.4.2.1 Multi-column layout
+1.4.2.2 Stacked mobile layout
+2.0 Homepage (index.html)
+2.1 Hero Section
+2.1.1 Background System
+2.1.1.1 Hospital image background
+2.1.1.2 Dark overlay implementation
+2.1.2 Hero Content Layout
+2.1.2.1 Right-aligned content
+2.1.2.2 Headline presentation
+2.1.2.3 Introductory text
+2.1.3 Call-to-Action Elements
+2.1.3.1 Book Appointment button
+2.1.3.2 Watch Video button
+2.1.3.3 Play icon wrapper
+2.2 Feature Overlay Grid
+2.2.1 Expert Doctors Feature
+2.2.2 Advanced Care Feature
+2.2.3 24/7 Services Feature
+2.2.4 Patient Care Feature
+2.3 Introduction Section
+2.3.1 Clinic overview
+2.3.2 Value proposition
+2.3.3 User engagement strategy
+2.4 Background Alternation Strategy
+2.4.1 Sky Blue sections
+2.4.2 White sections
+2.4.3 Primary dark sections
+2.5 Homepage Responsiveness
+2.5.1 Four-column desktop layout
+2.5.2 Two-column tablet layout
+2.5.3 Single-column mobile layout
+3.0 About Page (about.html)
+3.1 Banner Section
+3.1.1 Medical background imagery
+3.1.2 Page title presentation
+3.2 Legacy Story Section
+3.2.1 Founder recognition
+3.2.2 Family succession narrative
+3.2.3 Three-doctor leadership transition
+3.2.4 Heritage preservation messaging
+3.3 Organizational Evolution
+3.3.1 Esther Heritage Specialist Hospital identity
+3.3.2 Relationship to IconCare
+3.3.3 Continuity of excellence
+3.4 Healthcare Services Narrative
+3.4.1 Diagnostic services
+3.4.2 Specialist consultations
+3.4.3 Comprehensive patient care
+3.5 Media Presentation
+3.5.1 Family legacy image placement
+3.5.2 Centered image styling
+3.5.3 Typography integration
+3.6 Institutional Values
+3.6.1 Mission section
+3.6.2 Vision section
+3.6.3 Alternating backgrounds
+4.0 Services Page (services.html)
+4.1 Services Display System
+4.1.1 CSS Grid implementation
+4.1.2 Flexbox alternatives
+4.2 Clinical Service Offerings
+4.2.1 Medical Surgical Care
+4.2.2 Fitness & Wellness Programs
+4.2.3 ECG Diagnostics
+4.2.4 Pharmacy Services
+4.3 Service Card Design
+4.3.1 Font Awesome icons
+4.3.2 Headings
+4.3.3 Service descriptions
+4.4 Card Micro-Interactions
+4.4.1 Hover lift effects
+4.4.2 Shadow transitions
+4.4.3 Color transformations
+4.5 Specialist Doctors Section
+4.5.1 Cardiologist profiles
+4.5.2 Chief Surgeon profiles
+4.5.3 OB/GYN profiles
+4.6 Doctor Card Components
+4.6.1 Image placeholders
+4.6.2 Professional tags
+4.6.3 Schedule links
+4.7 Responsive Service Layout
+4.7.1 Four-column layouts
+4.7.2 Three-column layouts
+4.7.3 Single-column mobile layouts
+5.0 Departments Page (departments.html)
+5.1 Department Showcase Structure
+5.1.1 Collaborative healthcare model
+5.1.2 Premium care communication
+5.2 Clinical Departments
+5.2.1 Pediatrics Department
+5.2.2 Obstetrics & Gynecology Department
+5.2.3 General Surgery Department
+5.2.4 Internal Medicine Department
+5.2.5 Emergency Care Department
+5.3 Department Content Elements
+5.3.1 Department icons
+5.3.2 Department descriptions
+5.3.3 Patient support explanations
+5.4 Department CTAs
+5.4.1 Learn Department Guidelines
+5.4.2 Book Specialist links
+5.5 Alternating Layout Strategy
+5.5.1 Image-left configuration
+5.5.2 Image-right configuration
+5.5.3 Alternating visual rhythm
+5.6 Responsive Department Design
+5.6.1 Desktop presentation
+5.6.2 Tablet adaptation
+5.6.3 Mobile optimization
+6.0 Customer Services & Contact Page (contact.html)
+6.1 Customer Care Section
+6.1.1 FAQ implementation
+6.1.1.1 Accordion functionality
+6.1.1.2 CSS transitions
+6.1.2 Patient Support Services
+6.1.2.1 Patient rights information
+6.1.2.2 Care support hotlines
+6.1.2.3 Icon integration
+6.2 Contact Information System
+6.2.1 Physical Address Details
+6.2.1.1 New Artisan location
+6.2.1.2 Enugu State details
+6.2.1.3 Nigeria designation
+6.2.2 Communication Channels
+6.2.2.1 Click-to-call phone numbers
+6.2.2.2 Professional email addresses
+6.2.3 Social Media Integration
+6.2.3.1 Medical-themed icon circles
+6.2.3.2 Social engagement links
+6.3 Inquiry Form System
+6.3.1 User Information Fields
+6.3.1.1 Full Name field
+6.3.1.2 Email field
+6.3.1.3 Phone Number field
+6.3.2 Inquiry Management Fields
+6.3.2.1 Inquiry selection
+6.3.2.2 Feedback selection
+6.3.2.3 Complaint selection
+6.3.3 Message Collection
+6.3.3.1 Textarea implementation
+6.4 Form UI/UX Features
+6.4.1 Floating labels
+6.4.2 Focus states
+6.4.3 Accent color integration
+6.4.4 Submit button styling
+6.5 Contact Page Responsiveness
+6.5.1 Two-column desktop layout
+6.5.2 Single-column mobile layout
+7.0 Technical Standards
+7.1 Frontend Technologies
+7.1.1 HTML5
+7.1.2 Vanilla CSS
+7.1.3 Font Awesome
+7.2 Code Organization
+7.2.1 Semantic HTML structure
+7.2.2 Separate CSS files
+7.2.3 Commented code practices
+7.3 Accessibility & Usability
+7.3.1 Readable typography
+7.3.2 Color contrast compliance
+7.3.3 Mobile usability standards
+7.4 Responsive Design Principles
+7.4.1 Mobile-first adaptation
+7.4.2 Fluid layouts
+7.4.3 Flexible grid systems
