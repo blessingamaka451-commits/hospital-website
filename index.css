@@ -90,7 +90,7 @@ img {
 .btn-primary {
     background-color: var(--color-accent);
     color: var(--color-white);
-    padding: 12px 28px;
+    padding: 12px 45px;
     border-radius: var(--radius-lg);
     font-weight: 600;
     border: 2px solid transparent;
@@ -119,7 +119,7 @@ img {
 }
 
 .header-container {
-    max-width: 1400px;
+    max-width: 1700px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -280,7 +280,7 @@ img {
     align-items: center;
     gap: 10px;
     font-size: 1rem;
-    padding: 0.2rem;
+    padding: 0.2rem 1rem;
     border: 2px solid var(--color-primary-light);
     border-radius: 20px;
 }
@@ -290,8 +290,8 @@ img {
 }
 
 .video-play-icon {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: var(--color-primary-light);
     color: var(--color-deep-blue);
