@@ -17,7 +17,7 @@
     --color-border: #e2e8f0;
 
     /* Typography */
-    --font-primary: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    --font-primary: 'monteserrat', -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     
     /* Transitions & Shadows */
     --transition-smooth: all 0.3s ease-in-out;
@@ -740,7 +740,7 @@ img {
 
 .hotline-pill {
     background-color: var(--color-white);
-    padding: 20px;
+    padding: 30px;
     border-radius: var(--radius-md);
     display: flex;
     align-items: center;
